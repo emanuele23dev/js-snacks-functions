@@ -4,10 +4,13 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+function nome_lettera (names, letteraA) {
+  return names.filter((name) => name.startsWith(letteraA));
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
+console.log(nome_lettera(names, 'A'));
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
