@@ -2,15 +2,15 @@
 
 
 // 👇 name lo indica come deprecato
-const name = 'Mario';
+// const name = 'Mario';
 
 
-// Dichiara la funzione qui.
+// // Dichiara la funzione qui.
 function saluto (nome) {
 return `Ciao ${nome}`
 }
 
-// Invoca la funzione qui e stampa il risultato in console
+// // Invoca la funzione qui e stampa il risultato in console
 
 const nome = 'Mario'
 console.log(saluto(nome));
@@ -18,3 +18,16 @@ console.log(saluto(nome));
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+
+// RIFATTO IN AULA 
+/* Scrivi una funzione che accetti una stringa contenente un nome e restituisca un saluto seguito dal nome fornito (es. "Ciao [nome]") */
+
+
+const name = 'Mario';
+
+let saluti = name => `Ciao ${name}`
+
+console.log(saluti(name));
+
+
